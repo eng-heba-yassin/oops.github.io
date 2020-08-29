@@ -1,0 +1,206 @@
+
+/*****************header****************/
+.main-header{
+	background-image: url("../images/bg.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 100%;
+	font-weight: 600;
+	font-size: 40px;
+	color: white;
+	 line-height: 0.8;
+}
+.main-title{
+	color: #cf4c5a;
+	margin: 20px auto;
+	padding-right: 20px;
+	border-right: 5px solid #f6865b;
+}
+button.header-button
+{
+height: 30px;
+background-color: white;
+color:#cf4c5a;
+border-radius: 25px;
+}
+.home-form{
+	border: 1px solid #808080;
+	padding: 10px;
+}
+/****************card-title************/
+.card-title{
+	text-align: center;
+}
+.card{
+	border: 1px solid #bfbfbf;
+	box-shadow: 5px 5px 10px #bfbfbf;
+	border-radius: 25px;
+	margin: 30px 0px;
+}
+.card-style{
+	background-color: #f2f2f2;
+	border-bottom-left-radius : 25px;
+	border-bottom-right-radius : 25px;
+}
+.card-button{
+	width: 130px;
+	background-image: url("../images/Rectangle51.png");
+	background-size: cover;
+	margin:30px auto;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 20px;
+
+}
+/*****************products*********************/
+.products{
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 5px 5px 10px #bfbfbf;
+}
+.products-drp{
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	height: 30px;
+	max-width: 100%;
+	margin: 15px auto;
+	border-radius: 15px;
+}
+/*************subscrabtion*******************/
+.subscrabtion{
+	background-image: url("../images/Rectangle 9.png");
+	padding-bottom: 20px;
+}
+/*************footer***********************/
+.footer{
+	background-image: url("../images/Rectangle 12.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px 20px;
+}
+.links li a{
+	color: white;
+}
+.links{
+	padding: 30px;
+	line-height: 2;
+}
+.social li{
+	display: inline-flex;
+	float: right;
+	margin: 15px;
+	padding-top: 30px;
+}
+.social a{
+	color: white;
+}
+/*******************login****************/
+.login{
+background-image: url("../images/Rectangle51.png");
+
+}
+.login-form{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	margin: 20px auto;
+	background-image: url("../images/Rectangle51.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+	border: 1px solid #cf4c5a;
+	border-radius: 25px;
+}
+.login-form::placeholder {
+  color: white;
+  }
+  .login-container{
+  	background-color: white;
+  	margin: auto;
+  	border-bottom-right-radius: 10px;
+  	border-top-right-radius: 10px;
+  	border: 1px solid #e6e6e6;
+  	box-shadow: 5px 5px 10px #bfbfbf;
+  	padding:30px 20px;
+  	height: 100%;
+  
+  }
+  .test{
+  	background-image: url('../images/Rectangle51.png');
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  }
+
+  /*********************add adv******************/
+  .add-container{
+  	background-color: #d9d9d9;
+  	padding: 20px;
+  	margin: 40px;
+  	margin-bottom: 0px;
+  	box-shadow: 5px 5px 10px #bfbfbf;
+  	border-radius: 10px;
+  }
+.control-label {
+    color: #f6865b;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+select.select-p{
+color: #f6865b;
+}
+.input-section{
+	border-radius: 25px;
+	width: 100%;
+    height: calc(2.25rem + 2px);
+    border: none;
+}
+.check{
+	color: #f6865b;
+	padding: 10px;
+}
+input[type=checkbox]{
+	color: #f6865b;
+	margin: 5px;
+}
+/***********************car page******************/
+.price, .msg{
+	width: 180px;
+	height: 50px;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 5px 5px 10px #bfbfbf;
+	margin: 30px auto 15px auto;
+	font-size: 20px;
+	font-weight: 500;
+	color: #cf4c5a;
+	display: flex;
+	justify-content: space-around;
+}
+ul.notes{
+	list-style: none;
+}
+ul.notes li{
+	margin: 15px 0px;
+}
+ul.notes li::before {
+  content: "\2022";
+  color: #f6865b;
+  font-weight: bold;
+  display: inline-block; 
+  width: 2em;
+  margin-left: -1em;
+  margin-right: -22px;
+  font-size: 25px;
+}
+.details{
+	background-color: white;
+	border-radius: 25px;
+	height: 50px;
+	padding: 15px;
+	margin: 15px auto;
+}
